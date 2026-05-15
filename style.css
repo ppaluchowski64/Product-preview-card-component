@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root
-{
+:root {
 	--green-500: hsl(158, 36%, 37%);
 	--green-700: hsl(158, 42%, 18%);
 
@@ -12,8 +11,7 @@
 	--white: hsl(0, 0%, 100%);
 }
 
-body
-{
+body {
 	height: 95vh;
 
 	display: flex;
@@ -25,8 +23,7 @@ body
 	background-color: var(--cream);
 }
 
-.card
-{
+.card {
 	font-family: "Montserrat", sans-serif;
 
 	width: 600px;
@@ -39,29 +36,25 @@ body
 	background-color: var(--white);
 }
 
-.text > span:nth-of-type(1)
-{
+.text > span:nth-of-type(1) {
 	color: var(--grey);
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 }
 
-.text > span:nth-of-type(2), .price > span:nth-of-type(1)
-{
+.text > span:nth-of-type(2), .price > span:nth-of-type(1) {
 	font-family: "Fraunces", serif;
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 1em;
 }
 
-.text > span:nth-of-type(3)
-{
+.text > span:nth-of-type(3) {
 	color: var(--grey);
 	line-height: 1.75em;
 }
 
-.text > button
-{
+.text > button {
 	border-style: none;
 
 	display: flex;
@@ -81,19 +74,16 @@ body
 	cursor: pointer;
 }
 
-.price > span:nth-of-type(1)
-{
+.price > span:nth-of-type(1) {
 	color: var(--green-500);
 }
 
-.price > span:nth-of-type(2)
-{
+.price > span:nth-of-type(2) {
 	color: var(--grey);
 	text-decoration: line-through;
 }
 
-.price
-{
+.price {
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
@@ -101,8 +91,7 @@ body
 	gap: 20px;
 }
 
-.text
-{
+.text {
 	box-sizing: border-box;
 	height: calc(100% - 20px);
 
@@ -116,26 +105,22 @@ body
 	margin-bottom: 10px;
 }
 
-.image > img
-{
+.image > img {
 	height: 100%;
 
 	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
 }
 
-@media (max-width: 650px)
-{
-	.card
-	{
+@media (max-width: 650px) {
+	.card {
 		width: 90%;
 		height: auto;
 
 		flex-direction: column;
 	}
 
-	.image > img
-	{
+	.image > img {
 		width: 100%;
 		height: 240px;
 
@@ -145,8 +130,7 @@ body
 		border-bottom-left-radius: 0;
 	}
 
-	.text
-	{
+	.text {
 		gap: 20px;
 		margin: 25px;
 	}
