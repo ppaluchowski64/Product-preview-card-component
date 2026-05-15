@@ -104,7 +104,6 @@ body
 .text
 {
 	box-sizing: border-box;
-	/* trzeba odjąć marginesy od dołu i góry */
 	height: calc(100% - 20px);
 
 	display: flex;
